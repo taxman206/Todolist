@@ -1,6 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View , Button} from 'react-native';
+//importing custom
+import {Textbox} from './components/Textbox';
 
 export default function App() {
   return (
@@ -8,6 +10,7 @@ export default function App() {
       <Text style={styles.greeting}>HEY Kama</Text>
       <Button title="click me" color="green"/>
       <StatusBar style="auto" />
+      <Textbox color="blue" size="24" text="Custom "/>
     </View>
   );
 }
