@@ -1,11 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View , Button} from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>HEY KAMA TU</Text>
+      <Text style={styles.greeting}>HEY Kama Tu</Text>
+      <Button title="click me"/>
       <StatusBar style="auto" />
     </View>
   );
@@ -18,4 +19,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  greeting:  {
+  color:'red',
+  fontSize:36
+  
+  }
 });
