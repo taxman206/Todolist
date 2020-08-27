@@ -11,6 +11,7 @@ export default function App() {
       <Button title="click me" color="green"/>
       <StatusBar style="auto" />
       <Textbox color="blue" size="24" text="Custom "/>
+      <Textbox color="red" size="24" text="Custom2"/>
     </View>
   );
 }
